@@ -1,0 +1,61 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(23, 4, 54);
+    z-index: 10;
+}
+
+#logo a {
+    padding: 10px;
+    font-family: "Oleo Script", sans-serif;
+    color: rgb(234, 241, 243);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: 1px 1px 2px rgb(99, 96, 96);
+}
+
+#logo a:hover {
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+    border-radius: 12px;
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar ul {
+        display: flex;
+        
+}
+
+#navbar li {
+    margin-left: 20px;
+}
+
+header a {
+    color: rgb(239, 241, 247);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px;
+    text-shadow: 1px 1px 2px rgb(99, 96, 96);
+   
+}
+
+#navbar a:hover {
+    color: rgb(100, 107, 107);
+   
+}
+
+
+
+
+

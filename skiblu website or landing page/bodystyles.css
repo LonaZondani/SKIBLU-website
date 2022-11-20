@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+
+
+/* body {
+    margin: 0;
+    
+} */
+
+#hero-content {
+    background-color: rgb(239, 241, 247);
+    height: 650px;
+    margin-bottom: 0;
+}
+
+#hero {
+    width: 900px;
+    background-color: rgba(49, 45, 49, 0.8);
+    box-shadow: 2px 2px 8px rgb(68, 67, 67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 5px ;
+    margin: 0 auto;
+    position: relative;
+    top: 220px;
+    
+}
+
+#hero h2 {
+   
+    color: rgb(239, 241, 247);
+    
+}
+
+#hero span {
+    color:#15f4ee
+}
+
+#cursor {
+    display: inline-block;
+    width: 3px;
+    background-color: rgb(239, 241, 247);
+    margin-left: 0.3rem;
+    animation: blink 1s infinite;
+}
+
+#hero p {
+    color: rgb(239, 241, 247);
+    margin-left: 2.2rem;
+}
+
+#hero a {
+    color: rgb(23, 4, 54);
+    border-radius: 6px;
+    margin: auto;
+    background-color: rgb(239, 241, 247);
+    text-decoration: none;
+    box-shadow: 2px 4px 8px rgb(39, 38, 38);
+    padding: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: ease-out 0.4s;
+    width: 300px;
+    outline: none;
+    
+}
+
+#hero a:hover {
+    background-color: rgb(23, 4, 54);
+    color: rgb(239, 241, 247);
+    box-shadow: 25px 4px 8px rgb(39, 38, 38);
+    cursor: pointer;
+}
+
+@keyframes blink {
+    0% {background-color: rgb(239, 241, 247);}
+    49% {background-color: rgb(239, 241, 247);}
+    50%{background-color: transparent;}
+    99%{background-color: transparent;}
+    100%{background-color: rgb(239, 241, 247);}
+}
